@@ -21,7 +21,7 @@ const password = useField("password");
 // Handle form submission
 const onSubmit = handleSubmit((values) => {
   // Simulated login logic (replace with real authentication)
-  if (values.email === "test@example.com" && values.password === "password123") {
+  if (values.email === "/login" && values.password === "password123") {
     alert(`Welcome back, ${values.email}`);
     router.push("/"); // Redirect to homepage
   } else {
