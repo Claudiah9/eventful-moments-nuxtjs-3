@@ -1,4 +1,5 @@
-import { __BASEURL } from "/assets/api";
+import { __BASEURL } from "~/assets/api";
+
 
 export default eventHandler(async (event) => {
   const body = await readBody(event);
